@@ -1,0 +1,108 @@
+/*
+font-family: 'Rowdies', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+*/
+body{
+	background-color: rgba(209, 204, 252,0.5);
+}
+
+#main {
+
+	display: grid;
+	grid-template-columns: 70% 30%;
+
+}
+
+p{
+
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subtitle{
+
+	font-family: 'Rowdies', cursive;
+}
+
+.img {
+height: 200px;
+width: 300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 20px;
+transition: 0.5s all;
+}
+
+.image-grid < img{
+margin: 10px;
+
+}
+
+#image-1 {
+	float: right;
+	margin: 20px;
+	border: solid black;
+	transition: 0.5s all;
+}
+.divs {
+
+	border: 2px solid black;
+	margin: 10px;
+}
+
+.divs > h2 {
+	margin-left: 10px; 
+}
+
+.divs > h2:hover {
+	color: rgb(247, 7, 39);
+}
+
+.divs > p {
+
+	margin-left: 10px;
+}
+.divs > a {
+
+	margin-left:10px; 
+	text-decoration: navy;
+	transition: 0.5s color;
+		
+}
+
+.divs > a:hover{
+
+	color: white;
+}
+.side-bars {
+
+	background-color: rgb(245, 152, 170);
+}
+
+img{
+height: 200px;
+width: 300px;
+
+}
+
+img:hover {
+	height: 250px;
+	width: 450px;
+	transition: 0.5s all;
+
+}
+
+.content {
+	animation: fade-in;
+	animation-duration:2.5s
+}
+.side-bars{
+	animation: fade-in;
+	animation-duration:2.5s;
+}
+
+@keyframes fade-in {
+
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
