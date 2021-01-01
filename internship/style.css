@@ -1,0 +1,130 @@
+.heading1{
+    text-align: right;
+    color: rgb(238, 6, 134);  
+}
+
+.imgone{
+height: 50%;
+
+}
+.imgtwo{
+height: 50%;
+}
+.column{
+    width: 50%;
+    height: 40%;
+}
+hr.new5 {
+    border: 10px solid green;
+    border-radius: 5px;
+  }
+
+
+  * {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  scroll-behavior: smooth;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(172, 82, 82);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #dd3f3f;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.column:hover .overlay {
+  opacity: 1;
+}
+
+mark.para2{
+    color: blue;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  .iconheading{
+      color: rgb(71, 15, 51);
+  }
+  .icons{
+      background-color: rgb(165, 150, 150);
+  }
+
+  .button {
+    background-color: rgb(167, 76, 76);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font: bold;
+  }
+  .lol{
+font: 1em 'Langar', cursive;
+
+  }

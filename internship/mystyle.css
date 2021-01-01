@@ -1,0 +1,59 @@
+
+ body{
+
+/*background-color:rgba(48, 23, 212, 0.6);*/
+height: 800px;
+  background-color:blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(21, 21, 138), rgb(55, 93, 214),rgb(49, 165, 211),rgb(152, 222, 240));
+ font-family: 'Lora', serif;
+font-family: 'Padauk', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.new{
+font-size: 60px;
+text-align: center;
+color:white;
+}
+.sub{
+    font-size: 20px;
+text-align: center;
+color: white;
+}
+#fname{
+    width: 35%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+;
+}
+#lname{
+    width: 35%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#msg{
+    width: 35%;
+    padding: 50px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#btn{
+    
+    width: 35%;
+    padding: 6px 12px;
+    background-color: rgb(69, 85, 158);
+}

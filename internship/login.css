@@ -1,0 +1,67 @@
+
+ body{
+    height: 800px;
+      background-color:blue; /* For browsers that do not support gradients */
+      background-image:  linear-gradient(rgb(117, 17, 17), rgb(212, 23, 23),rgb(49, 165, 211),rgb(152, 222, 240));
+     font-family: 'Lora', serif;
+    font-family: 'Padauk', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .new{
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    }
+    .sub{
+        font-size: 20px;
+    text-align: center;
+    color: white;
+    }
+    #fname{
+        width: 20%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    ;
+    }
+    #lname{
+        width: 20%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #btn{
+            border-radius: 4px;
+            background-color:#f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+            width: 100px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+          }
+  
+    #pswd{
+        width: 20%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+    }
+    .login{
+        align-items: right;
+    }
